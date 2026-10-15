@@ -35,7 +35,7 @@ export default function WhyUs() {
           {/* Left */}
           <div>
             <p className="text-sm font-semibold uppercase tracking-wider text-cyan-700">
-              Why Tech Solutions
+              Why Xcode
             </p>
 
             <h2 className="mt-3 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
