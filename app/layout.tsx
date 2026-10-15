@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "Tech Solutions",
+  title: "Xcode IT Services",
   description:
     "Cybersecurity, cloud, IT, software and technology solutions for modern businesses.",
 };
