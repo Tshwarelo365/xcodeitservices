@@ -10,7 +10,7 @@ const services = [
 ];
 
 const companyLinks = [
-  { name: "About qLEsh", href: "/about" },
+  { name: "About Xcode", href: "/about" },
   { name: "Our Services", href: "/services" },
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
@@ -34,8 +34,8 @@ export default function Footer() {
 
             <Link href="/" className="inline-flex items-center">
               <Image
-                src="/qLesh_logo_no_tagline.png"
-                alt="qLEsh"
+                src="/xcode_logo.png"
+                alt="Xcode"
                 width={150}
                 height={50}
                 className="h-auto w-[140px]"
@@ -50,7 +50,7 @@ export default function Footer() {
 
             {/* Brand statement */}
             <div className="mt-8 flex items-center gap-3">
-              <span className="h-px w-8 bg-cyan-400" />
+              
 
               <span className="text-xs font-medium uppercase tracking-[0.2em] text-cyan-400">
                 Engineering a Smarter Future.
@@ -156,7 +156,7 @@ export default function Footer() {
         <div className="flex flex-col gap-4 py-7 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between">
 
           <p>
-            © {new Date().getFullYear()} qLEsh. All rights reserved.
+            © {new Date().getFullYear()} Xcode. All rights reserved.
           </p>
 
           <div className="flex items-center gap-6">

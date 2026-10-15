@@ -81,10 +81,10 @@ export default function AboutPage() {
             >
 
               <div className="flex items-center gap-3">
-                <span className="h-px w-10 bg-cyan-400" />
+                
 
                 <p className="text-xs font-semibold uppercase tracking-[0.22em] text-cyan-400">
-                  About qLEsh
+                  About Xcode
                 </p>
               </div>
 
@@ -96,7 +96,7 @@ export default function AboutPage() {
               </h1>
 
               <p className="mt-8 max-w-2xl text-lg leading-8 text-slate-300">
-                qLEsh is a technology solutions company focused on
+                Xcode is a technology solutions company focused on
                 engineering practical software, cloud, cybersecurity,
                 infrastructure, and IT solutions that solve real business
                 challenges.
@@ -146,9 +146,10 @@ export default function AboutPage() {
 
                 <Image
                   src="/Hero.jpg"
-                  alt="qLEsh technology"
+                  alt="xcode technology"
                   fill
                   className="object-cover object-center opacity-75"
+                  sizes="100vw"
                 />
 
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent" />
@@ -159,7 +160,7 @@ export default function AboutPage() {
                     <span className="h-2 w-2 bg-cyan-400" />
 
                     <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-cyan-300">
-                      qLEsh / Technology
+                      Xcode / Technology
                     </span>
                   </div>
 
@@ -409,7 +410,7 @@ export default function AboutPage() {
           <div className="max-w-4xl">
 
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-400">
-              The qLEsh philosophy
+              The Xcode philosophy
             </p>
 
             <h2 className="mt-6 text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
@@ -462,7 +463,7 @@ export default function AboutPage() {
               href="/contact"
               className="group inline-flex shrink-0 items-center gap-3 bg-slate-950 px-7 py-4 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-cyan-400 hover:text-slate-950"
             >
-              Talk to qLEsh
+              Talk to Xcode
               <span className="transition-transform duration-300 group-hover:translate-x-1">
                 →
               </span>

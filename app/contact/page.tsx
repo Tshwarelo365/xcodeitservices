@@ -99,39 +99,7 @@ export default function ContactPage() {
                 help you identify a practical path forward.
               </p>
 
-              {/* Contact Details */}
-              <div className="mt-10 grid gap-8 border-t border-slate-200 pt-8 sm:grid-cols-2">
-
-                <div>
-                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
-                    Email
-                  </p>
-
-                  <a
-                    href="mailto:hello@techsolutions.co.za"
-                    className="mt-2 inline-block text-base font-semibold text-slate-950 transition-colors hover:text-cyan-700"
-                  >
-                    hello@techsolutions.co.za
-                  </a>
-                </div>
-
-                <div>
-                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
-                    Services
-                  </p>
-
-                  <p className="mt-2 text-sm font-semibold leading-6 text-slate-700">
-                    Cybersecurity
-                    <span className="mx-2 text-slate-300">•</span>
-                    Cloud
-                    <span className="mx-2 text-slate-300">•</span>
-                    IT
-                    <span className="mx-2 text-slate-300">•</span>
-                    Software
-                  </p>
-                </div>
-
-              </div>
+              
 
             </div>
 
@@ -148,9 +116,10 @@ export default function ContactPage() {
 
                 <Image
                   src="/contact.png"
-                  alt="qLEsh technology solutions"
+                  alt="Xcode technology solutions"
                   fill
                   className="object-cover transition-transform duration-700 hover:scale-[1.03]"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
 
                 {/* Subtle overlay */}

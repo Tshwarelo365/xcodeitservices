@@ -91,14 +91,7 @@ export default function Projects() {
         <div className="flex flex-col justify-between gap-10 md:flex-row md:items-end">
           <div className="max-w-3xl">
 
-            {/* Eyebrow */}
-            <div className="flex items-center gap-3">
-              <span className="h-px w-10 bg-cyan-600" />
-
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-700">
-                Technology ecosystem
-              </p>
-            </div>
+            
 
             {/* Heading */}
             <h2 className="mt-5 text-4xl font-bold leading-[1.05] tracking-tight text-slate-950 sm:text-5xl lg:text-6xl">
@@ -120,7 +113,7 @@ export default function Projects() {
           {/* Section indicator */}
           <div className="hidden shrink-0 text-right md:block">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-              qLEsh
+              Xcode
             </p>
 
             <p className="mt-2 text-sm font-medium text-slate-500">

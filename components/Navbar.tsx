@@ -33,8 +33,8 @@ export default function Navbar() {
            {/* Logo */}
           <div className="relative flex h-44 w-44 items-center justify-center overflow-hidden rounded-xl">
             <Image
-              src="/qLesh_logo_text.png"
-              alt="qLesh logo"
+              src="/xcode_logo.png"
+              alt="Xcode logo"
               width={160}
               height={140}
               priority

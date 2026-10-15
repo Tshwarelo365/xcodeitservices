@@ -76,7 +76,7 @@ export default function Services() {
           {/* Left — Heading */}
           <div>
             <div className="mb-6 flex items-center gap-3">
-              <span className="h-px w-10 bg-cyan-700" />
+              
 
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-700">
                 Our Capabilities
@@ -92,7 +92,7 @@ export default function Services() {
 
             <p className="mt-7 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
               From software engineering and cloud infrastructure to
-              cybersecurity and technical services, qLEsh delivers practical
+              cybersecurity and technical services, Xcode delivers practical
               technology solutions designed around your business and built for
               what comes next.
             </p>
@@ -127,8 +127,8 @@ export default function Services() {
             {/* Image container */}
             <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-slate-100 shadow-2xl shadow-slate-900/10">
               <Image
-                src="/services.jpg"
-                alt="qLEsh technology services"
+                src="/services.png"
+                alt="Xcode technology services"
                 width={900}
                 height={700}
                 className="h-auto w-full object-cover"

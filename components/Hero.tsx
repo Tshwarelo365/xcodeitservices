@@ -13,7 +13,7 @@ export default function Hero() {
       ====================================================== */}
       <Image
         src="/Hero.jpg"
-        alt="qLEsh Technology"
+        alt="Xcode IT Services"
         fill
         priority
         sizes="100vw"
@@ -49,7 +49,7 @@ export default function Hero() {
               transition={{ duration: 0.6 }}
               className="flex items-center gap-3"
             >
-              <span className="h-px w-10 bg-cyan-400" />
+              
 
               <span className="text-xs font-semibold uppercase tracking-[0.22em] text-cyan-400">
                 Technology Solutions
@@ -78,7 +78,7 @@ export default function Hero() {
               transition={{ duration: 0.7, delay: 0.35 }}
               className="mt-8 max-w-2xl text-base leading-8 text-slate-300 sm:text-lg"
             >
-              qLEsh delivers software, cloud, cybersecurity, and IT
+              Xcode delivers software, cloud, cybersecurity, and IT
               solutions designed to solve complex challenges, strengthen
               businesses, and create technology that moves organisations
               forward.
@@ -167,7 +167,7 @@ export default function Hero() {
                 alt=""
                 fill
                 priority
-                sizes="100vw"
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover object-center opacity-80"
               />
 
@@ -181,12 +181,12 @@ export default function Hero() {
                   <span className="h-2 w-2 rounded-full bg-cyan-400" />
 
                   <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-cyan-300">
-                    qLEsh / Technology
+                    XCODE IT Services
                   </span>
                 </div>
 
                 <p className="max-w-xs text-2xl font-semibold leading-tight text-white">
-                  Building technology for a smarter future.
+                  Smarter Technology, Stronger Business
                 </p>
 
               </div>

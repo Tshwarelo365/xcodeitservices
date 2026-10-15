@@ -64,18 +64,18 @@ export async function POST(request: Request) {
     }
 
     const { data, error } = await resend.emails.send({
-      from: "qLEsh Website <onboarding@resend.dev>",
+      from: "Xcode Website <onboarding@resend.dev>",
       to: [process.env.CONTACT_TO_EMAIL],
       replyTo: email,
 
-      subject: `New qLEsh enquiry — ${service}`,
+      subject: `New Xcode enquiry — ${service}`,
 
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 700px; margin: 0 auto; color: #0f172a;">
 
           <div style="background: #020617; padding: 30px;">
             <h1 style="margin: 0; color: white; font-size: 24px;">
-              New qLEsh Enquiry
+              New Xcode Enquiry
             </h1>
 
             <p style="margin: 8px 0 0; color: #22d3ee;">

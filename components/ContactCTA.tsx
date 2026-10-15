@@ -35,7 +35,7 @@ export default function ContactCTA() {
 
               {/* Eyebrow */}
               <div className="flex items-center gap-3">
-                <span className="h-px w-10 bg-cyan-400" />
+                
 
                 <p className="text-xs font-semibold uppercase tracking-[0.22em] text-cyan-400">
                   Start a conversation
@@ -54,7 +54,7 @@ export default function ContactCTA() {
               <p className="mt-7 max-w-xl text-base leading-8 text-slate-400 sm:text-lg">
                 Whether you&apos;re looking to strengthen your security,
                 modernise your infrastructure, move to the cloud, or build
-                something new, qLEsh can help turn the challenge into a
+                something new, Xcode can help turn the challenge into a
                 practical technology solution.
               </p>
 
@@ -83,10 +83,10 @@ export default function ContactCTA() {
                     </p>
 
                     <a
-                      href="mailto:qleshtechsolutions@gmail.com"
+                      href="mailto:Xcodetechsolutions@gmail.com"
                       className="mt-1 block text-sm font-medium text-slate-300 transition-colors hover:text-cyan-400"
                     >
-                      qleshtechsolutions@gmail.com
+                      xcodeitservices@gmail.com
                     </a>
                   </div>
 
@@ -116,11 +116,12 @@ export default function ContactCTA() {
 
               {/* Image */}
               <Image
-                src="/call.jpg"
-                alt="qLEsh technology solutions"
+                src="/call.png"
+                alt="Xcode technology solutions"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
+                loading="eager"
               />
 
               {/* Dark gradient */}
@@ -139,7 +140,7 @@ export default function ContactCTA() {
               <div className="absolute bottom-10 left-10">
 
                 <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-cyan-400">
-                  qLEsh
+                  Xcode
                 </p>
 
                 <p className="mt-2 text-sm font-medium text-white">
@@ -164,7 +165,7 @@ export default function ContactCTA() {
           </p>
 
           <div className="flex items-center gap-3">
-            <span className="h-px w-8 bg-cyan-400" />
+            
 
             <span className="text-xs text-slate-400">
               Technology built around your business.

@@ -128,29 +128,7 @@ export default function ProjectCard({
           ))}
         </div>
 
-        {/* Footer */}
-        <div className="mt-7 flex items-center justify-between border-t border-slate-100 pt-5">
-          <span className="text-xs font-medium uppercase tracking-[0.16em] text-slate-400">
-            qLEsh ecosystem
-          </span>
-
-          <span className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-slate-500 transition-all duration-300 group-hover:border-cyan-500 group-hover:bg-cyan-500 group-hover:text-white">
-            <svg
-              viewBox="0 0 20 20"
-              fill="none"
-              className="h-4 w-4"
-              aria-hidden="true"
-            >
-              <path
-                d="M4 10h11M10 5l5 5-5 5"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </span>
-        </div>
+        
       </div>
     </article>
   );
